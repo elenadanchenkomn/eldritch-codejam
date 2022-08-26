@@ -1,0 +1,138 @@
+
+body {
+    margin: 0px;
+    background-image: url(./assets/home.png);
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100ch;
+  
+  }
+  .cards {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .photo {
+    width: 15em;
+    margin: 40px;
+
+  }
+  .photo:hover {
+    transform: scale(1.2);
+  }
+  .buttons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40px 80px 40px 80px;
+   width: 100%;
+  }
+  .but {
+    margin: 40px;
+    width: 10em;
+    height: 4em;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 15px;
+  }
+  .but:hover {
+    transform: scale(1.2);
+  }
+  .red {
+    border: 3px solid red;
+    transform: scale(1.2);
+  }
+  .mixTheCards {
+    background-color: rgb(109, 49, 219);
+    width: 20em;
+    height: 4em;
+    border-radius: 15px;
+    margin: 40px;
+    color: antiquewhite;
+    display: none;
+  }
+  .mixTheCards:hover {
+    transform: scale(1.2);
+  }
+  .notNone {
+    display: block;
+  }
+   .red1 {
+    border: 3px solid red;
+    transform: scale(1.2);
+  }
+  .mixCardsButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .but-ons {
+    display: flex;
+
+  }
+  .card-desk {
+    width:10em ;
+    height: auto;
+    padding: 20px;
+    display: none;
+    
+  }
+  .card-desk-notNone {
+    display: block;
+  }
+  .table {
+    width:10em ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    margin: 0px;
+    display: none;
+  }
+  .table_block {
+    display: flex;
+  }
+  .green {
+    background-color: green;
+    margin-right: 20px;
+  }
+  .red-color {
+    background-color: red;
+    margin-right: 20px;
+
+  }
+  .blue {
+    background-color: blue;
+  }
+  .color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .colors {
+    display: flex;
+    align-items: center;
+ 
+  }
+  p {
+    width: 100%;
+    margin: 5px 5px;
+
+
+  }
+  .all_cards {
+    width:10em ;
+    height: auto;
+    padding: 20px;
+    display: none;
+  }
